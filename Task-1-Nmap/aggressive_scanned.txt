@@ -1,0 +1,65 @@
+Starting Nmap 7.98 ( https://nmap.org ) at 2026-06-08 13:06 +0530
+Nmap scan report for 192.168.32.185
+Host is up (0.00051s latency).
+Not shown: 992 closed tcp ports (reset)
+PORT      STATE SERVICE         VERSION
+135/tcp   open  msrpc           Microsoft Windows RPC
+139/tcp   open  netbios-ssn     Microsoft Windows netbios-ssn
+445/tcp   open  microsoft-ds?
+1521/tcp  open  oracle-tns      Oracle TNS Listener 10.2.0.1.0 (for 32-bit Windows)
+2869/tcp  open  http            Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+3389/tcp  open  ms-wbt-server
+| rdp-ntlm-info: 
+|   Target_Name: MANANBHALANI
+|   NetBIOS_Domain_Name: MANANBHALANI
+|   NetBIOS_Computer_Name: MANANBHALANI
+|   DNS_Domain_Name: MananBhalani
+|   DNS_Computer_Name: MananBhalani
+|   Product_Version: 10.0.26100
+|_  System_Time: 2026-06-08T07:37:22+00:00
+|_ssl-date: TLS randomness does not represent time
+| ssl-cert: Subject: commonName=MananBhalani
+| Not valid before: 2026-03-30T16:35:21
+|_Not valid after:  2026-09-29T16:35:21
+7070/tcp  open  ssl/realserver?
+|_ssl-date: TLS randomness does not represent time
+| ssl-cert: Subject: commonName=AnyDesk Client
+| Not valid before: 2023-11-07T11:19:01
+|_Not valid after:  2073-10-25T11:19:01
+16992/tcp open  http            Intel Active Management Technology User Notification Service httpd 12.0.96.2562
+|_http-server-header: Intel(R) Active Management Technology 12.0.96.2562
+| http-title: Intel&reg; Active Management Technology
+|_Requested resource was /logon.htm
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port3389-TCP:V=7.98%I=7%D=6/8%Time=6A267126%P=i686-pc-windows-windows%r
+SF:(TerminalServerCookie,13,"\x03\0\0\x13\x0e\xd0\0\0\x124\0\x02/\x08\0\x0
+SF:2\0\0\0");
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.98%E=4%D=6/8%OT=135%CT=1%CU=35457%PV=Y%DS=0%DC=L%G=Y%TM=6A26714
+OS:1%P=i686-pc-windows-windows)SEQ(SP=101%GCD=1%ISR=10A%TI=I%CI=I%II=I%SS=S
+OS:%TS=A)SEQ(SP=103%GCD=1%ISR=104%TI=I%CI=I%II=I%SS=S%TS=A)SEQ(SP=105%GCD=1
+OS:%ISR=10B%TI=I%CI=I%II=I%SS=S%TS=A)SEQ(SP=106%GCD=1%ISR=103%TI=I%CI=I%II=
+OS:I%SS=S%TS=A)OPS(O1=MFFD7NW8ST11%O2=MFFD7NW8ST11%O3=MFFD7NW8NNT11%O4=MFFD
+OS:7NW8ST11%O5=MFFD7NW8ST11%O6=MFFD7ST11)WIN(W1=FFFF%W2=FFFF%W3=FFFF%W4=FFF
+OS:F%W5=FFFF%W6=FFFF)ECN(R=Y%DF=Y%T=40%W=FFFF%O=MFFD7NW8NNS%CC=N%Q=)T1(R=Y%
+OS:DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=Y%DF=Y%T=40%W=0%S=Z%A=S%F=AR%O=%RD=
+OS:0%Q=)T3(R=Y%DF=Y%T=40%W=0%S=Z%A=O%F=AR%O=%RD=0%Q=)T4(R=Y%DF=Y%T=40%W=0%S
+OS:=A%A=O%F=R%O=%RD=0%Q=)T5(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R
+OS:=Y%DF=Y%T=40%W=0%S=A%A=O%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=
+OS:AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=Z%RUCK=G%
+OS:RUD=G)IE(R=Y%DFI=N%T=40%CD=Z)
+
+Network Distance: 0 hops
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows, cpe:/h:intel:active_management_technology:12.0.96.2562
+
+Host script results:
+| smb2-security-mode: 
+|   3.1.1: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2026-06-08T07:37:26
+|_  start_date: N/A
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 40.03 seconds

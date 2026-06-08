@@ -1,0 +1,15 @@
+Starting Nmap 7.98 ( https://nmap.org ) at 2026-06-08 13:04 +0530
+Nmap scan report for 192.168.32.185
+Host is up (0.0010s latency).
+Not shown: 992 closed tcp ports (reset)
+PORT      STATE SERVICE
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+445/tcp   open  microsoft-ds
+1521/tcp  open  oracle
+2869/tcp  open  icslap
+3389/tcp  open  ms-wbt-server
+7070/tcp  open  realserver
+16992/tcp open  amt-soap-http
+
+Nmap done: 1 IP address (1 host up) scanned in 0.81 seconds

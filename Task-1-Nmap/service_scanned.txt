@@ -1,0 +1,21 @@
+Starting Nmap 7.98 ( https://nmap.org ) at 2026-06-08 13:05 +0530
+Nmap scan report for 192.168.32.185
+Host is up (0.000064s latency).
+Not shown: 992 closed tcp ports (reset)
+PORT      STATE SERVICE         VERSION
+135/tcp   open  msrpc           Microsoft Windows RPC
+139/tcp   open  netbios-ssn     Microsoft Windows netbios-ssn
+445/tcp   open  microsoft-ds?
+1521/tcp  open  oracle-tns      Oracle TNS Listener 10.2.0.1.0 (for 32-bit Windows)
+2869/tcp  open  http            Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+3389/tcp  open  ms-wbt-server
+7070/tcp  open  ssl/realserver?
+16992/tcp open  http            Intel Active Management Technology User Notification Service httpd 12.0.96.2562
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port3389-TCP:V=7.98%I=7%D=6/8%Time=6A2670CC%P=i686-pc-windows-windows%r
+SF:(TerminalServerCookie,13,"\x03\0\0\x13\x0e\xd0\0\0\x124\0\x02/\x08\0\x0
+SF:2\0\0\0");
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows, cpe:/h:intel:active_management_technology:12.0.96.2562
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 12.28 seconds

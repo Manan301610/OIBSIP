@@ -1,0 +1,34 @@
+Starting Nmap 7.98 ( https://nmap.org ) at 2026-06-08 13:05 +0530
+Nmap scan report for 192.168.32.185
+Host is up (0.00076s latency).
+Not shown: 992 closed tcp ports (reset)
+PORT      STATE SERVICE
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+445/tcp   open  microsoft-ds
+1521/tcp  open  oracle
+2869/tcp  open  icslap
+3389/tcp  open  ms-wbt-server
+7070/tcp  open  realserver
+16992/tcp open  amt-soap-http
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.98%E=4%D=6/8%OT=135%CT=1%CU=39278%PV=Y%DS=0%DC=L%G=Y%TM=6A2670E
+OS:5%P=i686-pc-windows-windows)SEQ(SP=100%GCD=1%ISR=10B%TI=I%CI=I%II=I%SS=S
+OS:%TS=A)SEQ(SP=102%GCD=1%ISR=100%TI=I%CI=I%II=I%SS=S%TS=A)SEQ(SP=103%GCD=1
+OS:%ISR=10B%TI=I%CI=I%II=I%SS=S%TS=A)SEQ(SP=104%GCD=1%ISR=105%TI=I%CI=I%II=
+OS:I%SS=S%TS=A)SEQ(SP=106%GCD=1%ISR=106%TI=I%CI=I%II=I%SS=S%TS=A)OPS(O1=MFF
+OS:D7NW8ST11%O2=MFFD7NW8ST11%O3=MFFD7NW8NNT11%O4=MFFD7NW8ST11%O5=MFFD7NW8ST
+OS:11%O6=MFFD7ST11)WIN(W1=FFFF%W2=FFFF%W3=FFFF%W4=FFFF%W5=FFFF%W6=FFFF)ECN(
+OS:R=Y%DF=Y%T=40%W=FFFF%O=MFFD7NW8NNS%CC=N%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=A
+OS:S%RD=0%Q=)T2(R=Y%DF=Y%T=40%W=0%S=Z%A=S%F=AR%O=%RD=0%Q=)T3(R=Y%DF=Y%T=40%
+OS:W=0%S=Z%A=O%F=AR%O=%RD=0%Q=)T4(R=Y%DF=Y%T=40%W=0%S=A%A=O%F=R%O=%RD=0%Q=)
+OS:T5(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A
+OS:=O%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%D
+OS:F=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=Z%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=4
+OS:0%CD=Z)
+
+Network Distance: 0 hops
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 10.91 seconds
