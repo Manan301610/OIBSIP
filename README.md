@@ -20,6 +20,14 @@ This repository contains tasks completed during the Oasis Infobyte Cyber Securit
 * Enabled and configured firewall rules.
 * Verified active firewall configuration.
 
+### Task 8 - Capture Network Traffic with Wireshark
+
+- Installed Wireshark and Npcap.
+- Captured network traffic on a Wi-Fi interface.
+- Filtered and analyzed HTTP packets.
+- Examined HTTP requests and responses.
+- Saved packet capture for analysis.
+
 ## Tools Used
 
 * Nmap
@@ -27,6 +35,7 @@ This repository contains tasks completed during the Oasis Infobyte Cyber Securit
 * Windows Command Prompt
 * Kali Linux
 * VirtualBox
+* Wireshark
 
 
 ## Author
